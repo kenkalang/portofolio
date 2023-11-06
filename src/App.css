@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&family=Climate+Crisis&family=DynaPuff&family=Inter:wght@700&family=Kanit:ital,wght@0,200;1,100;1,200&family=League+Spartan:wght@100&family=Limelight&family=Poppins:wght@100;900&family=Rubik:wght@300&family=Schibsted+Grotesk:wght@700&display=swap');
+:root{
+  --color-primary: #F5CB5C;
+  --color-background: #172A3A;
+  --color-secondary: #508991;
+
+  --font-family: 'Atkinson Hyperlegible';
+  --font-secondary: 'Schibsted Grotesk';
+  --font-tertiary: 'Limelight';
+
+  --color-text-primary: #74B3CE;
+
+  --corner-radius: 12px;
+  --transition: all 0.2s linear;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  font-family: var(--font-family);
+  line-height: 19px;
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--color-text-primary);
+}
+
+body {
+  background-color: var(--color-background);
+  margin: 0;
+  max-width: 100vw;
+  min-height: 100vh !important;
+  width: 100%;
+}
+
+p{
+  margin: 0;
+}
+
+h3{
+  margin: 0;
+}
+
+h4{
+  margin: 0;
+}
+
+h1{
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 32px;
+  letter-spacing: -0.01em;
+}
+
+section{
+  padding: 5rem 10rem;
+}
+
+
+
+button {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 600;
+  color: var(--color-primary);
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: var(--corner-radius);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+button.third{
+  color: var(--color-background);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+button.btn {
+  line-height: 19px;
+  font-weight: 600;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: var(--corner-radius);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+button.secondary{
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-background);
+  color: var(--color-primary);
+}
+
+button:hover {
+  transform: scale(1.02);
+  background-color: var(--color-secondary);
+}
+
+button.btn:hover {
+  background-color: var(--color-secondary);
+}
+
